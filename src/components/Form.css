@@ -1,0 +1,72 @@
+.form {
+    width: 100%;
+    overflow: hidden;
+}
+
+.form__details {
+    width: 100%;
+    display: flex;
+}
+
+.form__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__left h2 {
+    text-align: center;
+}
+
+.form__right {
+    width: 40vw;
+}
+
+.form__right img {
+    width: 100vw;
+    height: 85vh;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+    font-size: 13px;
+    color: #333;
+}
+
+.component input,
+.component select {
+    height: 30px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+.component .desc {
+    height: 60px;
+    border-radius: 3px;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+}
+
+button {
+    background-color: rgb(50, 100, 255);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.form__right img {
+    width: 100%;
+}

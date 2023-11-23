@@ -1,0 +1,24 @@
+.HomePage {
+    overflow: hidden;
+    width: 80%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Adjust as needed */
+}
+
+.custom-card {
+    width: calc(33.333% - 16px);
+    /* Adjust the width and margin as needed */
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        width: 100%;
+        /* Display one card per row on smaller screens */
+    }
+}

@@ -1,0 +1,20 @@
+.search-container {
+    width: 50%;
+    margin-top: 2rem;
+    border: 1px solid rgb(51, 38, 38);
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.search {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.MuiSvgIcon-root {
+    width: 2rem !important;
+}
